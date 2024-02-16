@@ -1,2 +1,2 @@
 #!/bin/bash
-find -mindepth 0 -type f -name ".**gif" -printf "%p\n" | sed 's/\.[^.]*$//'
+find -mindepth 0 -type f -name ".**gif" -printf "%p\n"
