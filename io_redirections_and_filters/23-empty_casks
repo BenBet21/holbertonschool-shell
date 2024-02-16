@@ -1,2 +1,2 @@
 #!/bin/bash
-echo \n find -name :-mindepth 0 -empty 
+find -mindepth 0 -empty -printf "%f\n"
